@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="EU cookies" lan="LAN_PLUGIN_EUC_NAME" version="1.0" date="2015-09-15" compatibility="2.0" installRequired="true" >
+	<author name="Roland Graf (OxigenO2)" url="http://github.com/oxigeno2" />
+	<summary lan="LAN_PLUGIN_EUC_SUMMARY">EU Cookie informs users that your site uses cookies</summary>
+	<description lan="LAN_PLUGIN_EUC_DESCRIPTION">EU Cookie informs users that your site uses cookies, plugin created with the help a script Divas Cookies.</description>
+	<keywords>
+		<word>eu</word>
+		<word>cookies</word>
+	</keywords>
+	<category>tools</category>
+	<copyright></copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/eu_cookies_32.png" iconSmall="images/eu_cookies_16.png" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='eu_cookie_text'>This website uses cookies.</pref>
+		<pref name='eu_cookie_policylink'>More info</pref>
+		<pref name='eu_cookie_btn'>I understand</pref>
+		<pref name='eu_cookie_position'>top</pref>
+		<pref name='eu_cookie_theme'>dark</pref>
+		<pref name='eu_cookie_openeffect'>fade</pref>
+		<pref name='eu_cookie_openeffectduration'>600</pref>
+		<pref name='eu_cookie_openeffecteasing'>swing</pref>
+		<pref name='eu_cookie_closeeffect'>slideDown</pref>
+		<pref name='eu_cookie_closeeffectduration'>600</pref>
+		<pref name='eu_cookie_closeeffecteasing'>swing</pref>
+	</pluginPrefs>
+</e107Plugin>
