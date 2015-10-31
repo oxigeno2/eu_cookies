@@ -4,4 +4,22 @@ EU Cookie informs users that your site uses cookies, plugin created with the hel
 - Easy installation through plugins manager
 - Setting options location of the banner at the top or bottom
 - Choice of dark or light theme
+### Version
+1.0
+### Languages
+Supported Languages:
+ - English
+ - Czech
 
+### Changelog
+1.0
+ - The release
+
+### Installation
+Supports standard installation from the administration area of CMS e107.
+    
+
+License
+----
+
+MIT
