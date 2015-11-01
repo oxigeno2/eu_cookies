@@ -20,7 +20,10 @@ Supported Languages:
 
 ### Installation
 Supports standard installation from the administration area of CMS e107.
-    
+
+### Plans for the future
+ - Editing the CSS style administration area
+ - Adding options debug mode
 
 License
 ----
