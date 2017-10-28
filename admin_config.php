@@ -16,6 +16,8 @@ if (!getperms('P'))
 	exit;
 }
 
+//e107::lan('eu_cookies',false,'front'); 
+e107::lan('eu_cookies',true,true);
 
 
 class eu_cookies_adminArea extends e_admin_dispatcher
