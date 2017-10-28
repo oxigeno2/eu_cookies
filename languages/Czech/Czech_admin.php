@@ -20,4 +20,17 @@ define("LAN_PLUGIN_EUC_OPENEFFECTEASING", "Zmírnìní efektu pøi otevøení");
 define("LAN_PLUGIN_EUC_CLOSEEFFECT", "Animace pøi zavøení baneru");
 define("LAN_PLUGIN_EUC_CLOSEEFFECTDURATION", "Doba efektu v milisekndách");
 define("LAN_PLUGIN_EUC_CLOSEEFFECTEASING", "Zmírnìní efektu pøi uzavøení");
+//verify this  because it's translated with google translate sorry.
+define("LAN_PLUGIN_EUC_FADE",  "slÃ¡bnout");
+define("LAN_PLUGIN_EUC_SLIDEDOWN",  "sklouznout dolÅ¯");
+define("LAN_PLUGIN_EUC_SLIDEUP",  "posun nahoru");
+define("LAN_PLUGIN_EUC_SLIDELEFT",  "Posun vlevo");
+define("LAN_PLUGIN_EUC_SLIDERIGHT",  "Posunete doprava");
+define("LAN_PLUGIN_EUC_TOP",  "hornÃ­");
+define("LAN_PLUGIN_EUC_BOTTOM",  "dno");
+define("LAN_PLUGIN_EUC_DARK",  "temnÃ½");
+define("LAN_PLUGIN_EUC_LIGHT",  "SvÄ›tlo");
+define("LAN_PLUGIN_EUC_SWING",  "HoupaÄka");
+define("LAN_PLUGIN_EUC_LINEAR",  "LineÃ¡rnÃ­");
+
 ?>

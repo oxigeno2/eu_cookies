@@ -20,4 +20,15 @@ define("LAN_PLUGIN_EUC_OPENEFFECTEASING", "It is the easing function for the ope
 define("LAN_PLUGIN_EUC_CLOSEEFFECT", "It is the closing effect");
 define("LAN_PLUGIN_EUC_CLOSEEFFECTDURATION", "It is the duration in msec for the closing effect");
 define("LAN_PLUGIN_EUC_CLOSEEFFECTEASING", "It is the easing function for the closing effect ");
+define("LAN_PLUGIN_EUC_FADE",  "Fade");
+define("LAN_PLUGIN_EUC_SLIDEDOWN",  "Slide Down");
+define("LAN_PLUGIN_EUC_SLIDEUP",  "Slide Up");
+define("LAN_PLUGIN_EUC_SLIDELEFT",  "Slide Left");
+define("LAN_PLUGIN_EUC_SLIDERIGHT",  "Slide Right");
+define("LAN_PLUGIN_EUC_TOP",  "Top");
+define("LAN_PLUGIN_EUC_BOTTOM",  "Bottom");
+define("LAN_PLUGIN_EUC_DARK",  "Dark");
+define("LAN_PLUGIN_EUC_LIGHT",  "Light");
+define("LAN_PLUGIN_EUC_SWING",  "Swing");
+define("LAN_PLUGIN_EUC_LINEAR",  "Linear");
 ?>

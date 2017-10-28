@@ -10,15 +10,16 @@
  */
 
 require_once('../../class2.php');
+
 if (!getperms('P')) 
 {
 	header('location:'.e_BASE.'index.php');
 	exit;
 }
 
+
 //e107::lan('eu_cookies',false,'front'); 
 e107::lan('eu_cookies',true,true);
-
 
 class eu_cookies_adminArea extends e_admin_dispatcher
 {
@@ -94,14 +95,13 @@ class eu_cookies_ui extends e_admin_ui
 			
 		); 
 
-	
 		public function init()
 		{
 			// Set drop-down values (if any).
 
 		$position = array(
-			'top'	=> 'Top',
-			'bottom'	=> 'Bottom'		
+			'top'	=> LAN_PLUGIN_EUC_TOP,
+			'bottom'	=> LAN_PLUGIN_EUC_BOTTOM		
 		);	
 		
 					
@@ -109,8 +109,8 @@ class eu_cookies_ui extends e_admin_ui
 		$this->prefs['eu_cookie_position']['readParms'] 		= $position; 
 
 		$theme = array(
-			'dark'	=> 'Dark',
-			'light'	=> 'Light'		
+			'dark'	=> LAN_PLUGIN_EUC_DARK,
+			'light'	=> LAN_PLUGIN_EUC_LIGHT		
 		);	
 		
 					
@@ -118,11 +118,11 @@ class eu_cookies_ui extends e_admin_ui
 		$this->prefs['eu_cookie_theme']['readParms'] 		= $theme; 
 
 		$openeffect = array(
-			'fade'	=> 'Fade',
-			'slideUp'	=> 'Slide Down',		
-			'slideDown'		=> 'Slide Up',
-			'slideLeft'		=> 'Slide Left',
-			'slideRight'		=> 'Slide Right'		
+			'fade'	=> LAN_PLUGIN_EUC_FADE,
+			'slideUp'	=> LAN_PLUGIN_EUC_SLIDEDOWN,		
+			'slideDown'		=> LAN_PLUGIN_EUC_SLIDEUP,
+			'slideLeft'		=> LAN_PLUGIN_EUC_SLIDELEFT,
+			'slideRight'		=> LAN_PLUGIN_EUC_SLIDERIGHT		
 		);	
 		
 					
@@ -130,8 +130,8 @@ class eu_cookies_ui extends e_admin_ui
 		$this->prefs['eu_cookie_openeffect']['readParms'] 		= $openeffect; 
 
 		$openeffecteasing = array(
-			'swing'	=> 'Swing',
-			'linear'	=> 'Linear'	
+			'swing'	=> LAN_PLUGIN_EUC_SWING,
+			'linear'	=> LAN_PLUGIN_EUC_LINEAR	
 		);	
 		
 					
@@ -139,11 +139,11 @@ class eu_cookies_ui extends e_admin_ui
 		$this->prefs['eu_cookie_openeffecteasing']['readParms'] 		= $openeffecteasing; 	
 
 		$closeeffect = array(
-			'fade'	=> 'Fade',
-			'slideUp'	=> 'Slide Down',		
-			'slideDown'		=> 'Slide Up',
-			'slideLeft'		=> 'Slide Left',
-			'slideRight'		=> 'Slide Right'		
+			'fade'	=> LAN_PLUGIN_EUC_FADE,
+			'slideUp'	=> LAN_PLUGIN_EUC_SLIDEDOWN,		
+			'slideDown'		=> LAN_PLUGIN_EUC_SLIDEUP,
+			'slideLeft'		=> LAN_PLUGIN_EUC_SLIDELEFT,
+			'slideRight'		=> LAN_PLUGIN_EUC_SLIDERIGHT		
 		);	
 		
 					
@@ -151,8 +151,8 @@ class eu_cookies_ui extends e_admin_ui
 		$this->prefs['eu_cookie_closeeffect']['readParms'] 		= $closeeffect; 
 
 		$closeeffecteasing = array(
-			'swing'	=> 'Swing',
-			'linear'	=> 'Linear'	
+			'swing'	=> LAN_PLUGIN_EUC_SWING,
+			'linear'	=> LAN_PLUGIN_EUC_LINEAR	
 		);	
 		
 					
