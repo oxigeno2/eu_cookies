@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Plugin name="EU cookies" lan="LAN_PLUGIN_EUC_NAME" version="1.0" date="2015-09-15" compatibility="2.0" installRequired="true" >
-	<author name="Roland Graf (OxigenO2)" url="http://github.com/oxigeno2" />
+<e107Plugin name="EU cookies" lan="LAN_PLUGIN_EUC_NAME" version="1.1" date="2017-10-30" compatibility="2.0" installRequired="true" >
+	<author name="Roland Graf (OxigenO2)" url="http://github.com/oxigeno2/eu_cookies" />
 	<summary lan="LAN_PLUGIN_EUC_SUMMARY">EU Cookie informs users that your site uses cookies</summary>
 	<description lan="LAN_PLUGIN_EUC_DESCRIPTION">EU Cookie informs users that your site uses cookies, plugin created with the help a script Divas Cookies.</description>
 	<keywords>
@@ -8,7 +8,6 @@
 		<word>cookies</word>
 	</keywords>
 	<category>tools</category>
-	<copyright></copyright>
 	<adminLinks>
 		<link url="admin_config.php" description="" icon="images/eu_cookies_32.png" iconSmall="images/eu_cookies_16.png" primary="true" >LAN_CONFIGURE</link>
 	</adminLinks>
