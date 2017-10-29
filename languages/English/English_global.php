@@ -4,7 +4,7 @@
  * EU cookies plugin for CMS e107 v2
  *
  * @author OxigenO2 (oxigen.rg@gmail.com)
- * @copyright Copyright (C) 2015 OxigenO2 
+ * @copyright Copyright (C) 2017 OxigenO2 
  * @license GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
  * @link http://oxigen.mablog.eu/
  */
