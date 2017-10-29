@@ -4,12 +4,12 @@
  * EU cookies plugin for CMS e107 v2
  *
  * @author OxigenO2 (oxigen.rg@gmail.com)
- * @copyright Copyright (C) 2015 OxigenO2 
+ * @copyright Copyright (C) 2017 OxigenO2 
  * @license GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
  * @link http://oxigen.mablog.eu/
  */
 define("LAN_PLUGIN_EUC_NAME", "EU cookies");
-define("LAN_PLUGIN_EUC_SUMMARY",  "EU Cookie informuje uživatele, že vaše stránky používá cookies."); 
-define("LAN_PLUGIN_EUC_DESCRIPTION", "EU Cookie informuje uživateleže vaše stránky používají cookies, doplnìk vytvoøen s pomocí skriptu Divas Cookies.");
+define("LAN_PLUGIN_EUC_SUMMARY",  "EU Cookie informuje uÅ¾ivatele, Å¾e vaÅ¡e strÃ¡nky pouÅ¾Ã­vÃ¡ cookies."); 
+define("LAN_PLUGIN_EUC_DESCRIPTION", "EU Cookie informuje uÅ¾ivatele Å¾e vaÅ¡e strÃ¡nky pouÅ¾Ã­vajÃ­ cookies, doplnÄ›k vytvoÅ™en s pomocÃ­ skriptu Divas Cookies.");
 
 ?>
