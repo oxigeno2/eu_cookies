@@ -15,6 +15,7 @@ EU Cookie informs users that your site uses cookies, plugin created with the hel
 Supported Languages:
  - English
  - Czech
+ - Italian
 
 ### Changelog
 
